@@ -266,7 +266,6 @@ testTable1 <- table(Control$patientID, Control$pretrial_STAI)
 barplot(testTable1, main = "Con Groups's Post STAI Scores", xlab = "GAD Score",
         col = "Red")
 
-
 testTable2 <- table(Experimental$gender, Experimental$pretrial_STAI)
 barplot(testTable2, main = "Exp Groups's Post STAI Scores", xlab = "GAD Score",
         col = "Red")
